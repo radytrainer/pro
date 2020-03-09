@@ -34,14 +34,17 @@ ul li a:hover {
     display: grid;
     grid-template-columns: 20% 79%;
     grid-gap:10px;
+    margin: auto;
+    margin-top: 20px;
+    width: 88%;
+    
 }
 
-.box1,
 .box2 {
-    padding: 10px;
-    height: 50vh;
-    text-align: center;
     background: rgba(0,0,0,0.1);
+    padding: 10px;
+    opacity: 0.7;
+    line-height: 1.5;
 }
 
 
@@ -56,4 +59,30 @@ footer {
 }
 .box-left {
     height: 10vh;
+}
+
+.img1 {
+    width: 100%;
+    filter: grayscale(100%);
+}
+.img2 {
+    width: 100%;
+    filter: sepia(200%);
+}
+
+.form-controller {
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+input {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+input[type="button"] {
+    width: 150px;
+    cursor: pointer;
 }
